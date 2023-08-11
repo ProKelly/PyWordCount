@@ -1,0 +1,12 @@
+<hmtl>
+    {% load static %}
+    <head>
+        <title>{% block title %} {% endblock %}</title>
+        <link rel="stylesheet" href={% static "css/bootstrap.min.css" %}>
+    </head>
+<body>
+    {% block content %}
+    
+    {% endblock %}
+</body>
+</hmtl>

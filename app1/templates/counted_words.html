@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title%} 
+Results of counted words 
+{% endblock %}
+
+{% block content %} 
+   🤗Hi, your message(file) contains:<br>
+   <br>
+   <b><h1>{{words}}  Words</h1></b>
+
+   Go back to 🌞🌞<br>
+   <hr>
+   <a href='/'>homepage</a><br>
+   <a href="/textinput/">input another word and try counting again</a>
+{% endblock %}
